@@ -3,13 +3,13 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 trigger:
-  branch: 
-    include:
-    - master
-  paths:
-    include:
-    - Shopping/Shopping.API/*
-    - aks/shoppingapi.yaml
+    branch: 
+      include:
+      - master
+    paths:
+      include:
+      - Shopping/Shopping.API/*
+      - aks/shoppingapi.yaml
 
 resources:
 - repo: self
